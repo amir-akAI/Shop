@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "product 1",
+      "price": 550,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "string",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+    },
+    {
+      "id": "2",
+      "title": "product 2",
+      "price": 2600,
+      "description": " consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "string",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+    },
+    {
+      "id": "3",
+      "title": "product 3",
+      "price": 185,
+      "description": "Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "string",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+    },
+    {
+      "id": "4",
+      "title": "product 4",
+      "price": 3200,
+      "description": "dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "string",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+    }
+  ]
+}

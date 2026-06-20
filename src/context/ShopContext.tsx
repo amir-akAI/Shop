@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
+import { useLocalStorage } from "../hooks/useLocalStorage";
 
 
 
@@ -35,7 +36,7 @@ export const useShopContext = () => { //------------------------custom hook
 
 export function ShopCartsProvider({ children }: IShopCartsProvider) {
 
-    const [cartItems, setCartItems] = useState<cart[]>([])
+    const [cartItems, setCartItems] = useLocalStorage<cart[]>("cartItems", [])
 
 
     const ProductQty = (id: number) => {

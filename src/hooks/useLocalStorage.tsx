@@ -1,6 +1,21 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
-export const useLocalStorage = () => {
-    const [ value, setValue ] = useState()
+export function useLocalStorage<T>(key: string, initialValue: T) {
+    const [value, setValue] = useState<T>(() => {
+
+        let localCart = localStorage.getItem(key)
+
+        if(localCart != null){
+            return JSON.parse(localCart)
+        }
+        else return initialValue
+    })
+
+    useEffect(() =>{
+        localStorage.setItem(key, JSON.stringify(value))
+        console.log("value :", value , "key:", key)
+    }, [key, value])
+
+    return[value, setValue] as [typeof value , typeof setValue]
 }

@@ -27,12 +27,14 @@ function CartItem({ ...item }: ICartItem) {
 
     return (
         <div className="flex flex-row-reverse mb-3 border-b border-b-gray-300 pb-3">
-            <Link to={`/product/${item.id}`}><img className="rounded w-36" src={prod?.image} alt="" /></Link>
+            <Link to={`/product/${item.id}`}><img className="rounded w-40 h-full" src={prod?.image} alt="" /></Link>
 
 
             <div className="mr-4 w-full text-right relative">
                 <h3 className="mt-2">{prod?.title}</h3>
-
+                <div className="my-2">
+                    <p>{prod?.price}$</p>
+                </div>
                 <div className="mt-3">
                     <Button varient="danger" className="absolute left-0" onClick={() => { DeleteItem(item?.id) }}>remove</Button>
                     <Button

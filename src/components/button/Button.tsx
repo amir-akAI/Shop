@@ -1,6 +1,6 @@
 import type { ComponentProps } from "react"
 
-type TVarient = "danger" | "primary" | "secondary" | "success" | "warning"
+type TVarient = "danger" | "primary" | "secondary" | "success" | "warning" | "black"
 
 type IButton = ComponentProps<"button"> & {
     varient?: TVarient
@@ -34,5 +34,8 @@ function checkVarient(varient?: TVarient) {
     }
     else if (varient === "warning") {
         return { backgroundColor: "yellow", color: "black" }
+    }
+    else if (varient === "black") {
+        return { backgroundColor: "black", color: "white" }
     }
 }

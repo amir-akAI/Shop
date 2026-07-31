@@ -17,7 +17,7 @@ function Navbar() {
                         <li className="ml-5"><Link to="/">خانه</Link></li>
                         <li><Link to="/store">فروشگاه</Link></li>
                     </ul>
-
+                    <div className="text-3xl font-bold">LUXE</div>
                     <div>
                         <Link to="/carts" className="relative">
                             <FontAwesomeIcon icon={faCartShopping} className="text-2xl"/>

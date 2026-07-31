@@ -76,6 +76,7 @@ export function Footer() {
               </form>
 
               <div className="mt-7 flex items-center gap-2">
+              
                 {socialLinks.map(({ label }) => (
                   <button
                     key={label}

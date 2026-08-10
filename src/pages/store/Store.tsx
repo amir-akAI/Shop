@@ -21,12 +21,12 @@ function Store() {
             <Container>
                 <h1 className="text-right mt-5">جدید ترین محصولات</h1>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 px-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-8 px-3 ">
                     
                     {
                         products.map(item => (
                             
-                            <Link key={item.id} to={`/product/${item.id}`}>
+                            <Link  key={item.id} to={`/product/${item.id}`}>
                                 <ProductItem {...item} />
                             </Link>
                         ))

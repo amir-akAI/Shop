@@ -2,35 +2,67 @@
   "products": [
     {
       "id": "1",
-      "title": "product 1",
+      "title": "Luna Lounge Chair",
       "price": 550,
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
-      "category": "string",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+      "category": "Furniture",
+      "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": "2",
-      "title": "product 2",
-      "price": 2600,
-      "description": " consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
-      "category": "string",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+      "id": 2,
+      "title": "Forma Ceramic Vase",
+      "price": 85,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Ceramics",
+      "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": "3",
-      "title": "product 3",
-      "price": 185,
-      "description": "Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
-      "category": "string",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+      "id": 3,
+      "title": "Arco Table Lamp",
+      "price": 190,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Lighting",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80"
     },
     {
-      "id": "4",
-      "title": "product 4",
-      "price": 3200,
-      "description": "dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
-      "category": "string",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Xd4a75FLX0lNNES5_dT-FZ7HP8wgmIqXxg&s"
+      "id": 4,
+      "title": "Nordic Linen Throw",
+      "price": 75,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Textiles",
+      "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 5,
+      "title": "Oak Side Table",
+      "price": 260,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Furniture",
+      "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 6,
+      "title": "Clay Stoneware Bowl",
+      "price": 55,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Ceramics",
+      "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 7,
+      "title": "Milo Pendant Light",
+      "price": 240,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Lighting",
+      "image": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": 8,
+      "title": "Woven Cotton Cushion",
+      "price": 48,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "category": "Textiles",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80"
     }
   ]
 }

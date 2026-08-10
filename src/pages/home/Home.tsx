@@ -1,4 +1,5 @@
 import { Footer } from "../../components/footer/Footer";
+import Hero from "../../components/home/Hero";
 import ProductCard from "../../components/home/ProductCard";
 import Slider from "../../components/slider/Slider";
 
@@ -16,6 +17,8 @@ function Home() {
 
     return (
         <>
+            <Hero/>
+
             <div className="w-[80%] gap-x-2 m-auto mt-32">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-x-3 gap-y-6 ">
                     <ProductCard/>

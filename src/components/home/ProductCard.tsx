@@ -19,11 +19,12 @@ export default function ProductCard() {
     return (
 
         <>
+            
             {
                 products.map(item => (
 
-                    <Link key={item.id} to={`/product/${item.id}`} className="bg-gray-100">
-                        <ProductItem {...item} />
+                    <Link key={item.id} to={`/product/${item.id}`} className="bg-gray-100" dir="rtl">
+                        <ProductItem {...item}  />
                     </Link>
                 ))
             }

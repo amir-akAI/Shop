@@ -2,65 +2,65 @@
   "products": [
     {
       "id": "1",
-      "title": "Luna Lounge Chair",
+      "title": "صندلی راحتی لونا",
       "price": 550,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "صندلی راحتی لونا با طراحی مینیمال و فرم ارگونومیک، انتخابی مناسب برای اتاق نشیمن، مطالعه یا استراحت است. طراحی ساده و رنگ خنثی آن به‌راحتی با دکوراسیون‌های مدرن هماهنگ می‌شود.",
       "category": "Furniture",
       "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 2,
-      "title": "Forma Ceramic Vase",
+      "title": "گلدان سرامیکی فورما",
       "price": 85,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "گلدان سرامیکی فورما با طراحی ساده و ظریف، گزینه‌ای زیبا برای قرار دادن گل‌های طبیعی یا مصنوعی است. ظاهر مینیمال آن می‌تواند جلوه‌ای گرم و شیک به میز، قفسه یا کنسول شما بدهد.",
       "category": "Ceramics",
       "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 3,
-      "title": "Arco Table Lamp",
+      "title": "چراغ رومیزی آرکو",
       "price": 190,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "چراغ رومیزی آرکو با طراحی مدرن و نورپردازی کاربردی، برای مطالعه، کار یا ایجاد فضایی آرام در اتاق مناسب است. فرم ساده و شیک آن به‌عنوان بخشی از دکوراسیون نیز جلوه زیبایی ایجاد می‌کند.",
       "category": "Lighting",
       "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 4,
-      "title": "Nordic Linen Throw",
+      "title": "شال لینن نوردیک",
       "price": 75,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "شال لینن نوردیک با بافتی نرم و ظاهر طبیعی، برای استفاده روی مبل، صندلی یا تخت طراحی شده است. رنگ و بافت ساده آن به فضای خانه حس گرما و آرامش می‌بخشد.",
       "category": "Textiles",
       "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 5,
-      "title": "Oak Side Table",
+      "title": "میز کنار مبلی چوب بلوط",
       "price": 260,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "میز کنار مبلی چوب بلوط با طراحی ساده و کاربردی، فضای مناسبی برای قرار دادن کتاب، فنجان، چراغ یا وسایل دکوراتیو فراهم می‌کند. ظاهر طبیعی چوب آن به‌خوبی با سبک‌های مدرن و مینیمال هماهنگ می‌شود.",
       "category": "Furniture",
       "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 6,
-      "title": "Clay Stoneware Bowl",
+      "title": "کاسه سرامیکی دست‌ساز کلی",
       "price": 55,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "کاسه سرامیکی کلی با طراحی ساده و بافتی طبیعی، برای سرو خوراکی‌ها یا استفاده به‌عنوان یک عنصر دکوراتیو مناسب است. ظاهر مینیمال آن می‌تواند زیبایی خاصی به میز غذاخوری یا آشپزخانه اضافه کند.",
       "category": "Ceramics",
       "image": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 7,
-      "title": "Milo Pendant Light",
+      "title": "چراغ آویز مایلو",
       "price": 240,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "چراغ آویز مایلو با طراحی مدرن و فرم چشم‌نواز، برای روشنایی و ایجاد نقطه‌ای جذاب در فضای داخلی مناسب است. این چراغ می‌تواند بالای میز غذاخوری، کانتر یا فضای نشیمن استفاده شود.",
       "category": "Lighting",
       "image": "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=900&q=80"
     },
     {
       "id": 8,
-      "title": "Woven Cotton Cushion",
+      "title": "کوسن نخی بافت‌دار",
       "price": 48,
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis nobis veritatis ducimus maiores officia, dicta nam iusto qui ipsa repellat molestias laboriosam quis, accusamus ex aliquid est dolorum eveniet.",
+      "description": "کوسن نخی بافت‌دار با طراحی ساده و بافت نرم، انتخابی مناسب برای مبل، صندلی یا تخت خواب است. استفاده از آن راهی ساده برای اضافه کردن حس راحتی و گرما به فضای خانه محسوب می‌شود.",
       "category": "Textiles",
       "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80"
     }

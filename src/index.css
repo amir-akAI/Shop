@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/vazir/Vazir.ttf") format("truetype");
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+* {
+  font-family: "MyFont", Vazir;
+}

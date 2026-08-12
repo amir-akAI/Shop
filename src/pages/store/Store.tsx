@@ -335,14 +335,7 @@ function Store() {
                             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                 {filteredProducts.map((item) => (
-
-                                    <Link
-                                        key={item.id}
-                                        to={`/product/${item.id}`}
-                                    >
-                                        <ProductItem {...item} />
-                                    </Link>
-
+                                    <ProductItem {...item} />
                                 ))}
 
                             </div>

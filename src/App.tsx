@@ -5,6 +5,7 @@ import Layout from "./components/layout/Layout"
 import Product from "./pages/product/Product"
 import Carts from "./pages/carts/Carts"
 import { ShopCartsProvider } from "./context/ShopContext"
+import Wishlist from "./pages/wishlist/Wishlist"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <ShopCartsProvider>
       <Layout>
         <Routes>
+          <Route path="/wishlist" element={<Wishlist />}/>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/product/:id" element={<Product />} />

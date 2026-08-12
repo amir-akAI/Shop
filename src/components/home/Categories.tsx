@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const categories = [
     {
         name: "مبلمان",
@@ -29,8 +31,8 @@ export default function Categories() {
     return (
         <section
             dir="rtl"
-            className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8"
-        >
+            className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+
             <div className="mb-10 text-right">
                 <p className="text-xs uppercase tracking-[0.2em] text-gray-400">
                     دسته‌بندی‌ها
@@ -43,23 +45,21 @@ export default function Categories() {
 
             <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
                 {categories.map((category) => (
-                    <a
+                    <Link
                         key={category.slug}
-                        href={`/shop?category=${category.slug}`}
-                        className="group relative aspect-[4/5] overflow-hidden bg-gray-100"
-                    >
+                        to="/store"
+                        className="group relative aspect-[4/5] overflow-hidden bg-gray-100 rounded">
                         <img
                             src={category.image}
                             alt={category.name}
-                            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                        />
+                            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"/>
 
                         <div className="absolute inset-0 bg-black/10 transition group-hover:bg-black/25" />
 
                         <h3 className="absolute bottom-5 right-5 font-serif text-xl text-white">
                             {category.name}
                         </h3>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </section>

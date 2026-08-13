@@ -79,7 +79,7 @@ export default function Header() {
         <header>
             {/* Shipping bar */}
             <div className="fixed top-0 w-full border-b z-50 border-black/10 bg-black px-4 py-2 text-center text-xs! text-white sm:text-sm">
-                Complimentary shipping on orders over $150 · 30-day returns
+                ارسال رایگان برای سفارش‌های بالای ۱۵۰ $ · امکان مرجوعی تا ۳۰ روز
             </div>
 
             {/* Header */}

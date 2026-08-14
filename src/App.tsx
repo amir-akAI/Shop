@@ -6,6 +6,7 @@ import Product from "./pages/product/Product"
 import Carts from "./pages/carts/Carts"
 import { ShopCartsProvider } from "./context/ShopContext"
 import Wishlist from "./pages/wishlist/Wishlist"
+import Account from "./pages/account/account"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/wishlist" element={<Wishlist />}/>
+          <Route path="/account" element={<Account />}/>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/product/:id" element={<Product />} />
